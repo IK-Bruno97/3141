@@ -26,11 +26,11 @@ def correct_answers():
     ans.insert(3, ans4_tf.get())
     ans.insert(4, ans5_tf.get())
 
-    if ans[0] == answers[0]:
+    if ans[0].lower() == answers[0].lower():
         correct += 1
-    if ans[1] == answers[1]:
+    if ans[1].lower() == answers[1].lower():
         correct += 1
-    if ans[2] == answers[2]:
+    if ans[2].lower() == answers[2].lower():
         correct += 1
     if int(ans[3]) == answers[3]:
         correct += 1
